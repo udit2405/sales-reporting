@@ -1,8 +1,5 @@
-# Sales Reporting
+# Sales Reporting (Google Apps Script)
 
-Mobile form: pick a store, enter VIP / SKY / ARI / VIP Total / VIP MTD / AT / KT / AT Total / AT MTD / Safari / Safari MTD, hit Submit — values land in that store's row in the Google Sheet.
+Complete app in `appscript/`: `Code.gs` + `Index.html`. Form with store dropdown (live from the sheet) and the 11 sale fields; Submit writes straight into that store's row.
 
-## One-time setup
-1. Open the sheet → Extensions → Apps Script → paste `Code.gs` → Deploy → New deployment → Web app (Execute as *Me*, access *Anyone*).
-2. Copy the `/exec` URL into `SCRIPT_URL` in `index.html`, commit, push.
-3. Enable GitHub Pages (main branch, root).
+Setup: sheet → Extensions → Apps Script → paste both files → Deploy → New deployment → Web app (Execute as *Me*, access *Anyone*) → share the URL.
