@@ -4,6 +4,6 @@ Complete app in `appscript/`: `Code.gs` (single file). Form with store dropdown 
 
 Setup: sheet → Extensions → Apps Script → paste Code.gs → Deploy → New deployment → Web app (Execute as *Me*, access *Anyone*) → share the URL.
 
-**Live form:** https://script.google.com/macros/s/AKfycbyz92UZGT_1yTVdHBw0CVJUWX-xgyL8svLu8Pr0ubfihs0ZTzBQS8kifIspzZhfJd6i/exec
 
-**Short link (GitHub Pages):** https://udit2405.github.io/sales-reporting/
+
+**Website:** https://udit2405.github.io/sales-reporting/ (form on GitHub Pages; Apps Script is only the hidden backend that saves to the sheet)
